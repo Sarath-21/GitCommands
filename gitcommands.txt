@@ -1,0 +1,17 @@
+[?24-?09-?2019 11:56]  Fegade, Amit:  
+git init: - Initializes as git repository, so git starts tracking all the changes.
+git status
+git add <file> - Adds files to staging area. We can unstage the files from staging area.
+git rm --cached aboutus.html   -- It will unstage the aboutus.html file.
+git log - displays all the commits
+touch .gitignore - It creates .gitignore file.
+git branch - It displays all the branches.
+git remote add origin <link_to_remote_repo> - set up the remote repository
+origin - name of remote repo 
+git push origin master - Push local code to master branch of origin (Global repo) repository.
+git pull origin master -  Pull the changes from rempote repository and merges with the local repo.
+git branch <branch_name> - creates a new branch
+git checkout <branch_name> - switch to specific branch
+git merge <branch_name> - Merges the changes of specific branch to master branch.
+git clone <link_of_remote_repo> - it clones the remote repository locally... 
+ 
